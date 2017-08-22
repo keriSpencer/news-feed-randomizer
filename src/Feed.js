@@ -61,8 +61,10 @@ class Feed extends Component {
         <div className="col-md-12">
           <div className="row">
             {/* Pass in the loader via props.*/}
-            {this.props.loader}
+            {/* {this.props.loader} */}
+
             {/* Pass in the renderFeed object. */}
+            {this.props.children}
             {renderFeed}
           </div>
         </div>

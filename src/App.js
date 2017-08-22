@@ -65,7 +65,8 @@ class App extends Component {
         {/* Pass in the child component*/}
         {/* Share state with the child*/}
         {/* Your code here*/}
-        <Feed feed={this.state.feed} loader={this.state.loader} />
+        <Feed feed={this.state.feed} />
+        <Loader />
       </div>
     )
   }
